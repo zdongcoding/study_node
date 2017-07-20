@@ -93,6 +93,7 @@ public MainActivity() {
 - 使用 Around 报错 incompatible return type applying to field-set   ` set ` 不能使用 return 只能使用 joinPoint.proceed 
 - 使用get 使用 around  必须return   否则报错 （applying to join point that doesn't return void: field-get）
 
-@Around  在get/set 中  set不能使用return  但是get 可以使用
-set 中 所有的advice  都不能使用 return
-adviec 除了@Around 其他的都不能return
+####总结
+* @Around  在get/set 中  set不能使用return  但是get 必须使用return
+* set 中 所有的advice  都不能使用 return
+* advice 除了@Around 其他的都不能return
