@@ -1,7 +1,7 @@
-# AspectJ(四) 高级用法
+# AspectJ(四) 高级用法--Field
 
 ## Field  <set/get>
-> 变量的获取和设置
+> 变量的获取和设置,**不能是局部变量**
 
 ### get Field 的值
 + 想获取一个变量Field的值
@@ -98,3 +98,6 @@ public MainActivity() {
 * @Around  在get/set 中  set不能使用return  但是get 必须使用return
 * set 中 所有的advice  都不能使用 return
 * advice 除了@Around 其他的都不能return
+
+##### 新的理解
+ - 使用` advice(Around) `时切入点是一个方法 ` Method ` 如果有返回值 那么 一定需要 ` return ` 否则报错 `  applying to join point that doesn't return void `
