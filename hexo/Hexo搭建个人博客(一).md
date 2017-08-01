@@ -1,11 +1,3 @@
----
-title: Hexo搭建个人博客(一)
-copyright: true
-categories: Hexo
-date: 2017-07-30 13:10:32
-tags: hexo
----
-
 # 环境配置
 >[Hexo](https://github.com/hexojs/hexo)是一款基于Node.js的静态博客框架, hexo github或者conding的pages
 

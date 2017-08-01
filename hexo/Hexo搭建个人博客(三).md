@@ -1,10 +1,3 @@
----
-title: Hexo搭建个人博客三
-copyright: true
-categories: Hexo
-date: 2017-07-31 15:44:31
-tags: hexo
----
 # 主题篇
 > 默认是 landscape 主题 
 

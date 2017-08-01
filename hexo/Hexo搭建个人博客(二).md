@@ -1,11 +1,3 @@
----
-title: Hexo搭建个人博客二
-copyright: true
-categories: Hexo
-date: 2017-07-31 15:03:48
-tags: hexo
----
-
 # 认识Hexo工程
 
 ## 目录结构

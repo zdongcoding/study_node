@@ -1,10 +1,3 @@
----
-title: Hexo问题及需求解决
-copyright: true
-categories: Hexo
-date: 2017-07-31 20:50:23
-tags: hexo
----
 # Hexo问题及需求解决
 > 遇到的一些问题， 和解决办法
 
